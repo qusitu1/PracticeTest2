@@ -10,3 +10,5 @@
 [node name="Enemy" parent="." instance=ExtResource("2_xsxs8")]
 position = Vector2(854, 330)
 gravity_scale = 2.66454e-15
+
+[connection signal="body_entered" from="Player" to="Player" method="_on_body_entered"]
